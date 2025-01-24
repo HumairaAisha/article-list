@@ -18,8 +18,6 @@ body{
    display: flex;
    flex-direction: column;
    
-   
- 
 }
 
 h1{
@@ -40,16 +38,20 @@ header{
    font-weight: 600;
    max-width: 600px;
    word-break: break;
+   margin-top: 40px;
 }
 
 .date{
    font-size: 0.875rem;
    color: #4D5562;
+   padding-bottom: 50px;
+   
 }
 article img{
    border-radius: 10px;
    margin-bottom: 50px;
    align-items: center;
+   
     
 }
 article{
@@ -66,5 +68,17 @@ article:hover{
 article div{
    display: flex;
    flex-direction: column;
-  
+   
+}
+
+@media (max-width: 640px){
+   .guide, .impact, .future{
+      max-width: 350px;
+   }
+}
+
+@media (max-width: 412px){
+   .guide, .impact, .future{
+      max-width: 100px;
+   }
 }
