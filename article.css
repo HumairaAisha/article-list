@@ -38,13 +38,15 @@ header{
    font-weight: 600;
    max-width: 600px;
    word-break: break;
-   margin-top: 40px;
+   margin-top: 50px;
+   
 }
 
 .date{
    font-size: 0.875rem;
    color: #4D5562;
    padding-bottom: 50px;
+   
    
 }
 article img{
